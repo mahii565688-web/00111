@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Urban House Interio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+
+<header>
+  <h1 class="logo">
+    <img src="images/logo.png" alt="Logo" class="logo-img">
+    Urban House Interior
+  </h1>
+  <nav>
+    <a href="#home" class="nav-link active">Home</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#achievements" class="nav-link">Achievements</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <div class="social-icons">
+    <a href="https://instagram.com/urbanhouseinterio" target="_blank">
+      <img src="images/instagram.png" alt="Instagram" class="social-icon">
+    </a>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <video autoplay muted loop class="hero-video">
+    <source src="images/yourvideo.mp4" type="video/mp4">
+  </video>
+  <div class="hero-content">
+    <h2>Crafting Elegant Interiors</h2>
+    <p class="typing-text"></p>
+    <button id="view-projects">View Projects</button>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section class="services fade-in" id="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <!-- Repeat for all 7 services -->
+    <div class="card">
+      <h3>Cabinetry & Hardware</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/cabinet1.jpg">
+          <img src="images/cabinet2.jpg">
+          <img src="images/cabinet3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Door Design</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/door1.jpg">
+          <img src="images/door2.jpg">
+          <img src="images/door3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Flooring Selection</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/floor1.jpg">
+          <img src="images/floor2.jpg">
+          <img src="images/floor3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Home Decor</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/decor1.jpg">
+          <img src="images/decor2.jpg">
+          <img src="images/decor3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Interior Design</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/interior1.jpg">
+          <img src="images/interior2.jpg">
+          <img src="images/interior3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Kitchen Design</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/kitchen.jpg">
+          <img src="images/kitchen2.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Living Room Design</h3>
+      <div class="mini-carousel">
+        <button class="prev-mini">&#10094;</button>
+        <div class="mini-track">
+          <img src="images/living1.jpg">
+          <img src="images/living2.jpg">
+          <img src="images/living3.jpg">
+        </div>
+        <button class="next-mini">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS SECTION -->
+<section class="achievements fade-in" id="achievements">
+  <h2>Our Achievements</h2>
+  <div class="achievement-videos">
+    <video controls>
+      <source src="images/achievement1.mp4" type="video/mp4">
+    </video>
+    <video controls>
+      <source src="images/achievement2.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+<!-- GALLERY SECTION -->
+<section class="gallery fade-in" id="gallery">
+  <h2>Our Work</h2>
+  <div class="carousel">
+    <button class="prev">&#10094;</button>
+    <div class="carousel-track">
+      <img src="images/kitchen.jpg">
+      <img src="images/room1.jpg">
+      <img src="images/hall.jpg">
+      <img src="images/sofa.jpg">
+      <video controls>
+        <source src="images/galleryvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <button class="next">&#10095;</button>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact fade-in" id="contact">
+  <h2>Contact</h2>
+  <p>Email: urbanhouseinterio@email.com</p>
+  <p>Phone: +91 8906350045</p>
+  <p>Instagram: <a href="https://instagram.com/urbanhouseinterio" target="_blank">@urbanhouseinterio</a></p>
+  <p class="owner">Owned by – Gourav Sharma</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
